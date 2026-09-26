@@ -1,0 +1,10 @@
+name: SpectatorWatch
+version: 1.0
+main: org.mineserver.spectatorwatch.SpectatorWatchPlugin
+api-version: 1.20
+description: Показывает голову и ник игроков в spectator-режиме тем, у кого есть право spectatorwatch.see
+
+permissions:
+  spectatorwatch.see:
+    description: Видеть игроков, находящихся в spectator-режиме
+    default: false
